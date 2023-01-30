@@ -34,7 +34,7 @@ mktg_scenario = pd.DataFrame(dict(zip(columns, row)), index=[0])
 # st.table(mktg_scenario)
 
 
-pip install scikit-learn
+!pip install scikit-learn
 
 
 
