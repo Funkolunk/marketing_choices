@@ -31,7 +31,11 @@ columns = ['dollar_price', 'advertisment', 'promotions']
 mktg_scenario = pd.DataFrame(dict(zip(columns, row)), index=[0])
 
 # Show the table?
-st.table(mktg_scenario)
+# st.table(mktg_scenario)
+
+
+pip install scikit-learn
+
 
 
 # Now predicting!
