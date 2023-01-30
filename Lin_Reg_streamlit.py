@@ -34,10 +34,6 @@ mktg_scenario = pd.DataFrame(dict(zip(columns, row)), index=[0])
 # st.table(mktg_scenario)
 
 
-!pip install scikit-learn
-
-
-
 # Now predicting!
 if st.button(label="Click to Predict"):
 
