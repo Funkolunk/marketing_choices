@@ -7,5 +7,7 @@ STREAMLIT: Move price, advertisement budget, promotion budget sliders to predict
 
 https://funkolunk-marketing-choices-tshirt-sales-ectegr.streamlit.app/
 
+![marketing_strategy](marketing_strategy.png)
+
 
 
