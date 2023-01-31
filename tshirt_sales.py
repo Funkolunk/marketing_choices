@@ -15,7 +15,7 @@ with header:
 
 
 st.write("# Predict Sales")
-st.write("### Determine the scenario :")
+st.write("### Determine the scenario:")
 
 # Price of the product
 price = st.slider('Price of the product?', min_value=3.0, max_value=15.0, value=7.0, step=0.5)
