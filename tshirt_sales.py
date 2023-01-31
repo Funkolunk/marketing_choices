@@ -11,7 +11,7 @@ model = st.container()
 
 with header:
 	st.title('Choosing a Marketing Strategy')
-	st.text("This project uses linear regression to establish the relationship between price, advertisement,\npromotion, and units sold.")
+	st.text("This project uses linear regression to establish the relationship between price,\nadvertisement, promotion, and units sold.")
 
 
 st.write("# Predict Sales")
