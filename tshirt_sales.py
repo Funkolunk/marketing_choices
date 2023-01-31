@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 import pickle
 
-!pip install scikit-learn
 
 header = st.container()
 dataset = st.container()
