@@ -40,7 +40,7 @@ mktg_scenario = pd.DataFrame(dict(zip(columns, row)), index=[0])
 if st.button(label="Click to Predict"):
 
     # Load the model
-    loaded_model = pickle.load(open('tshirt_model.sav','rb'))
+    loaded_model = pickle.load(open('LinReg_model_Tshirts.sav','rb'))
     
     # Make predictions (and get out pred probabilities)
     pred = loaded_model.predict(mktg_scenario)[0]
