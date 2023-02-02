@@ -45,4 +45,4 @@ if st.button(label="Click to Predict"):
     # Make predictions (and get out pred probabilities)
     pred = loaded_model.predict(mktg_scenario)[0]
     
-    st.write(f"Predicted Unit Sales📊: {pred:,.0f} units ")
+    st.write(f"Predicted Unit Sales📊: {pred:,.0f} Tshirts")
