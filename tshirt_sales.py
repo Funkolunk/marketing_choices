@@ -18,13 +18,13 @@ st.write("# Predict Sales")
 st.write("### Determine the scenario:")
 
 # Price of the product
-price = st.slider('Price of the product?', min_value=3.0, max_value=15.0, value=7.0, step=0.5)
+price = st.slider('Price of the product in USD?', min_value=3.0, max_value=15.0, value=7.0, step=0.5)
 
 # Advertisment budget
-ads = st.slider('What is the advertisment budget?', min_value=35, max_value=65, value=50, step = 2)
+ads = st.slider('What is the advertisment budget in USD?', min_value=35, max_value=65, value=50, step = 2)
 
 # Promotions
-promo = st.slider('What is the promotional budget?', min_value=35, max_value=65, value=45, step = 2)
+promo = st.slider('What is the promotional budget in USD?', min_value=35, max_value=65, value=45, step = 2)
 
 row = [price, ads, promo]
 columns = ['dollar_price', 'advertisment', 'promotions']
