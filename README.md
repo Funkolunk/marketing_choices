@@ -1,4 +1,4 @@
-# marketing_choices
+# Marketing Choices
 
 A linear regression model to maximise units sold through optimal marketing choices.
 
